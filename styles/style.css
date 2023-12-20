@@ -1,4 +1,26 @@
 :root {
   --font1: "Fira Sans", Times, san-Serif;
   --font2: "Frank Ruhl Libre", serif;
+  --orange-color: #f17949;
+  --yellow-color: #fab131;
+  --blue-color: #c7ddea;
+  --gray-color: #a9a19e;
+}
+h1 {
+  font-family: var(--font2);
+  margin: 0px;
+  font-weight: bold;
+  font-size: 3rem;
+}
+body {
+  margin: 0;
+}
+.cta-header {
+  font-family: var(--font1);
+  padding: 20px 10px 0px 10px;
+  background-color: var(--blue-color);
+  width: 100%;
+}
+.full-width {
+  width: 100%;
 }
