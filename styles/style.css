@@ -24,3 +24,14 @@ body {
 .full-width {
   width: 100%;
 }
+p {
+  color: #838383;
+}
+em {
+  font-style: normal;
+  color: white;
+}
+button {
+  border-radius: 10px;
+  background-color: white;
+}
