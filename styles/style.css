@@ -45,7 +45,7 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  border: 2px solid green;
+
   display: flex;
   align-items: stretch;
   flex-direction: row;
@@ -53,4 +53,19 @@ nav ul {
 }
 nav ul li {
   width: 50%;
+  text-align: center;
+  font-family: var(--font1);
+  padding: 30px 30px;
+  box-sizing: border-box;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+/* ! Set text color to black when hovering menu */
+nav ul li:hover {
+  background-color: lightgray;
+  color: black;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--gray-color);
 }
